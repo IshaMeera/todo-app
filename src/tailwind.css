@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --bg: 255, 255, 255; /* White */
+    --card: 240, 240, 240; /* Light gray */
+    --text: 0, 0, 0; /* Black */
+    --button: 0, 123, 255; /* Blue */
+    --buttonText: 255, 255, 255; /* White */
+    --input: 224, 224, 224; /* Light gray */
+    --taskText: 51, 51, 51; /* Dark gray */
+    --icon: 102, 102, 102; /* Medium gray */
+     }
+      .theme1 {
+        --bg: 211, 227, 249; /* Dark gray */
+        --card: 180, 215, 240; /* Light blue */
+        --text: 33, 37, 41; /* Blue */
+        --button: 0, 149, 255; /* Blue */
+        --buttonText: 225, 225, 255; /* Light blue */
+        --input: 0, 149, 255; /* Dark gray */
+        --taskText: 33, 37, 41; /* Dark gray */
+        --icon: 33, 37, 41; /* Dark gray */
+      }
+      .theme2 {
+        --bg: 31, 41, 55; /* Dark blue-gray */
+        --card: 55, 65, 81; /* Darker blue-gray */
+        --text: 229, 231, 235; /* Light gray */
+        --button: 16, 185, 129; /* Green */
+        --buttonText: 255, 255, 255; /* White */
+        --input: 75, 85, 99; /* Blue-gray */
+        --taskText: 255, 255, 255; /* Light gray */
+        --icon: 16, 185, 129; /* Green */
+      }
