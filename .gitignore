@@ -1,0 +1,14 @@
+node_modules/
+.env
+dist/
+.DS_Store
+.vscode/
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# production
+/build
