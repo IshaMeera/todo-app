@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutuDo</title>
+    <script src="todo.js" defer></script>
+
+    <!-- importing styling -->
+    <link href="./dist/output.css" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="theme1 bg-bg font-sans flex items-center justify-center min-h-screen transition-colors duration-300">
+
+    <div class="bg-card rounded-lg shadow-lg w-full max-w-xl p-8">
+        <h1 class="text-4xl font-bold text-center text-text mb-6">Welcome to TutuDo</h1>
+        <h1 id="api-fetch" class="text-center text-taskText text-lg mb-6">Motivational quotes</h1>
+        
+        <div class="flex mb-4">
+        <input type="text" id="add-task" placeholder="Enter your task..."
+         class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 text-black">
+        
+         <button id="submit-button" class="ml-8 bg-button text-buttonText px-10 py-1 rounded-lg hover:bg-opacity-90">
+            I got this!
+        </button>
+        </div>
+        
+    
+        <ul id="list-of-tasks" class="list-none space-y-2">
+        
+        </ul>
+        
+        <div class="absolute top-5 right-5 flex space-x-4">
+            <!-- Theme 1 Circle -->
+            <div
+            id="theme1-circle"
+            class="w-8 h-8 rounded-full bg-gray-200 cursor-pointer border-2 hover:scale-110 transition-transform">
+          </div>
+          <!-- Theme 2 Circle -->
+          <div
+            id="theme2-circle"
+            class="w-8 h-8 rounded-full bg-gray-900 cursor-pointer border-2 hover:scale-110 transition-transform">
+          </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
