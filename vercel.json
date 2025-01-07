@@ -10,7 +10,7 @@
       },
       {
         "src": "dist/output.css",
-        "use": "@vercel/static",
+        "use": "@vercel/static"
       }
       
     ],
