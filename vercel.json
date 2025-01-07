@@ -5,9 +5,20 @@
         "use": "@vercel/static"
       },
       {
-        "src": "dist/*",
+        "src": "todo.js",
         "use": "@vercel/static"
+      },
+      {
+        "src": "dist/output.css",
+        "use": "@vercel/static",
       }
+      
+    ],
+    "routes":[
+        {
+            "src": "/(.*)",
+            "dist": "index.html"
+        }
     ],
     "outputDirectory": "dist"
   }
