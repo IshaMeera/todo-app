@@ -5,11 +5,11 @@
         "use": "@vercel/static"
       },
       {
-        "src": "todo.js",
+        "src": "dist/output.css",
         "use": "@vercel/static"
       },
       {
-        "src": "dist/output.css",
+        "src": "todo.js",
         "use": "@vercel/static"
       }
       
