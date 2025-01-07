@@ -14,12 +14,7 @@
       }
       
     ],
-    "routes":[
-        {
-            "src": "/(.*)",
-            "dest": "/index.html"
-        }
-    ]
+    "outputDirectory": "dist"
    
   }
 
